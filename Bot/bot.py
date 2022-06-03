@@ -14,7 +14,7 @@ bot_token = os.environ.get('TG_BOT_TOKEN')
 startmessage = [
     [
         InlineKeyboardButton(
-            text="How to use me❓", url="https://telegra.ph/Instructions-to-Use-This-Bot-05-07"),
+            text="How to use me❓", url="https://telegra.ph/Beast-Account-Checker-06-03"),
     ],
     [
         InlineKeyboardButton(text="Developer 👨‍💻", url="t.me/Be4stX"),
