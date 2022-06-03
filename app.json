@@ -8,7 +8,7 @@
         "telegram-bot",
         "Exploit"
     ],
-    "repository": "https://github.com/DevelopedBots/Account-Checker",
+    "repository": "https://github.com/beastz007/Account-Checker/",
     "success_url": "/",
     "env": {
         "TG_BOT_TOKEN": {
