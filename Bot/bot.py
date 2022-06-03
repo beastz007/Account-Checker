@@ -17,8 +17,8 @@ startmessage = [
             text="How to use me❓", url="https://telegra.ph/Instructions-to-Use-This-Bot-05-07"),
     ],
     [
-        InlineKeyboardButton(text="Developer 👨‍💻", url="t.me/kunaldiwan"),
-        InlineKeyboardButton(text="Channel 📢", url="t.me/DevelopedBots"
+        InlineKeyboardButton(text="Developer 👨‍💻", url="t.me/Be4stX"),
+        InlineKeyboardButton(text="Channel 📢", url="t.me/BeastXBots"
 
         ),
     ],
@@ -112,7 +112,7 @@ def scraperdfnc(update, context):
             scrape_text = status_msg['reply_to_message']['text']
             text_scraper(chat_id, scrape_text)
     except:
-        Sendmessage(chat_id, 'Only Supports pastebin, please check if you send paste bin link')
+        Sendmessage(chat_id, 'Only Supports pastebin, please check if you send pastebin link')
 
 def main():
     updater = Updater(
